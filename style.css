@@ -1,13 +1,13 @@
 html,body{margin:0;padding:0}
 body{font: 130%/1.3 TrebuchetMS,Arial,sans-serif;
-    text-align: left;background: #6A7F10;padding-bottom:20px}
-a { color: #0066B3; background: inherit; text-decoration: none;}
-h1 { font: bold 2.1em Arial, Arial, Sans-Serif; color: #036DA7 }
+    text-align: left;background: #881c1c;padding-bottom:20px}
+a { color: #881c1c; background: inherit; text-decoration: none;}
+h1 { font: bold 2.1em Arial, Arial, Sans-Serif; color: #881c1c }
 h2 { font: bold 1.1em Arial, Arial, Sans-Serif; padding: 0; margin: 0; }
 
-div#header{width:100%;overflow:hidden;background:#6A7F10; }
+div#header{width:100%;overflow:hidden;background:#881c1c; }
 div#header h1,div#menu{width:770px;margin:0 auto;text-align:left}
-div#header h1{padding: 30px 0 20px;color: #fff}
+div#header h1{padding: 30px 0 20px;color: #881c1c}
 
 ul#nav,ul#nav li{list-style-type:none;margin:0;padding:0}
 ul#nav{float:right;font-size: 80%}
@@ -26,6 +26,10 @@ div.section {
 	padding: 1em;
 	margin-bottom: 1.2em;
 	text-align: justify;
+}
+
+div.section_red a {
+	color: #eee;
 }
 
 div.colored {
