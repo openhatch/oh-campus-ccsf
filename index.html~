@@ -24,7 +24,7 @@
     teach you how to join them.</p>
 
   <h2>The event</h2>
-  <p>On <strong>Saturday, June 29th</strong>, in <a href="http://www.ccsf.edu/Info/Map/">MUB 140</a>, we want to bring you up to speed on open
+  <p>On <strong>Saturday, June 29th</strong>, in <a href="https://www.cs.umass.edu/about/contact-information">Computer Science Building</a> rooms 150 and 151, we want to bring you up to speed on open
   source projects and help you contribute to a real community.</p>
   <p>In the morning, we'll teach you about open source licensing,
     collaboration tools, and how free software projects are
@@ -33,12 +33,12 @@
   <p>And throughout the day, we'll feed you, get to know you,
   and talk with you about opportunities for students in open
   source.</p>
-  <p>If you're interested in attending, please fill out <a href="#signup">the form below</a>.
+  <p>This event is currently full.  If you're interested in attending, please fill out <a href="#signup">the form below</a> and we'll put you on a wait list.  We'll let you know as soon as possible if there's space for you to attend.
   <h2>Or you can scroll past the form and keep reading...</p>
 </div>
 <br style="clear: both;" />
 <div class="section" id="signup">
-  <iframe src="https://docs.google.com/spreadsheet/viewform?fromEmail=true&formkey=dE1FcGRDajZXeXFtbXhjUEFTc3dHS0E6MQ" width="760" height="1153" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+  <iframe src="https://docs.google.com/spreadsheet/embeddedform?formkey=dFlkcTd4QVM4aUt6LS1TTTVvcmF5Ymc6MA" width="760" height="1153" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 </div>
 <br style="clear: both;" />
 
@@ -62,12 +62,12 @@
   <h2>More about the event</h2>
 </br>
 Here's a basic schedule of what you can expect:</br></br>
-9:00am - 9:30am: Coffee, pastries, and getting to know each other</br>
-9:30am - 10:00am: Laptop setup</br>
-10:00am - 12:00pm: Introductory workshops</br>
-12:00pm - 1:00pm: Lunch</br>
-1:00pm - 1:30pm: Contributions demo</br>
-1:30pm - 3:00pm: Contributions workshop</br>
+9:30am - 10:00am: Coffee, pastries, and getting to know each other</br>
+10:00am - 10:15am: Laptop setup</br>
+10:15am - 12:30pm: Introductory workshops</br>
+12:30pm - 1:30pm: Lunch</br>
+1:30pm - 2:00pm: Contributions demo</br>
+2:00pm -5:00pm: Contributions workshop</br>
 </div>
 
 <div class="section_red">
@@ -77,7 +77,8 @@ Here's a basic schedule of what you can expect:</br></br>
     <a href="http://openhatch.org/people/paulproteus/">Asheesh Laroia</a>
     and Shauna Gordon-McKeon
     of <a href="http://openhatch.org/">OpenHatch</a>, with the help
-    of <a href="http://hills.ccsf.edu/~coders/">the CCSF Coders</a>.
+    of <a href="http://sites.ieee.org/sb-umassa/">UMass IEEE</a> and
+    <a href="http://umass.acm.org/">UMass ACM</a>.
   
   <p>We're a non-profit that helps people get involved in open
     source. You can <a href="http://openhatch.org/about/">learn
