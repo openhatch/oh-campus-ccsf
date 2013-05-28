@@ -21,11 +21,15 @@ ul#nav li.activelink a,ul#nav li.activelink a:hover{background: #FFF;color: #003
 }
 
 
-
 div.section {
 	padding: 1em;
 	margin-bottom: 1.2em;
 	text-align: justify;
+}
+
+div.section_red {
+	padding: 1em;
+	margin-bottom: 1.2em;
 }
 
 div.section_red a {
@@ -34,6 +38,7 @@ div.section_red a {
 
 div.colored {
     background: #eee;
+
 }
 
 #left {
