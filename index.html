@@ -143,10 +143,10 @@ window.onscroll = function() {
     <div class="small-2-left large-4-left columns day-text2" style ="text-align: left;">
       <h2>Pre-event Schedule</h2>
       <h4>[date of laptop setup 1] / Laptop Setup</h4>
-        <p>Meet with fellow event goers and prepare your laptop for the workshops. </p>
+        <p>Meet with fellow event goers and prepare your laptop for the workshops. Having your laptop prepared will allow you to jump right into the workshops.</p>
 
       <h4>[date of laptop setup 1] / Laptop Setup</h4>
-        <p>A second chance to prepare your laptop, or chat with colleagues</p>
+        <p>A second chance to prepare your laptop and chat with colleagues</p>
 
       <h2>Event Schedule</h2> <!-- alter for event -->
   	  <h4>9:00 am to 9:30 am / Coffee, juice, pastries and getting to know each other.</h4>
@@ -154,13 +154,13 @@ window.onscroll = function() {
       <h4>9:30 am to 10:00 am / Introductions</h4>
             <p>Overview of the day and introductions to the great staff who will help you through out the day.</p>
       <h4>10:00 am to 11:00 am / Open Source Communication Tools</h4>
-            <p>Aims to answer the question “What is Open Source?” and familiarize students with tools like IRC, issue trackers, mailing lists, and version control through several activities. Students will learn by lecture, discussion and a hands on activity. Curriculum can be found <a href="" style="color:blue;">here</a>.</p>
+            <p>Aims to answer the question “What is Open Source?” and familiarize students with tools like IRC, issue trackers, mailing lists, and version control through several activities. Students will learn by lecture, discussion and a hands on activity. <a href="" style="color:blue;">Curriculum can be found here</a>.</p>
       <h4>11:00 am to 12:00 pm / Career Panel </h4>
             <p>Staff will moderate a discussion between students and members of local Open Source industry. Details coming soon.</p>
   	  <h4>12:00 pm to 1:00 pm / Lunch Break</h4>
             <p>Lunch will be provided. Vegetarian, vegan, and other dietary options will be provided. Please indicate your needs on the registration form.</p> 
       <h4>1:00 pm to 2:00 / Hands On Git </h4>
-            <p>Git is a powerful version control language that allows distributed teams of developers to collaborate on large software projects. A brief workshop will introduce students to the use of this tool. Curriculum can be found <a href="" style="color:blue;">here</a>.</p>
+            <p>Git is a powerful version control language that allows distributed teams of developers to collaborate on large software projects. A brief workshop will introduce students to the use of this tool. <a href="" style="color:blue;">Curriculum can be found here</a>.</p>
   	  <h4>All Day / Contribution Workshop</h4>
            <p>Students will be looking through existing projects, working on issues and contributing solutions. Project leads and mentors will be available to provide assistance throughout the workshop.</h4>
            </p>
@@ -172,11 +172,11 @@ window.onscroll = function() {
     <div class = "row" style = "height: 600px; width: 100%; margin-bottom: 8%;">
   
         <h2 id = "location-txt" style = "text-align: center; color: #24C0EB; font-weight:700; font-family: 'Open Sans';">Join Us Here</h2>
-        <p style = "text-align: center; color: #222s; font-family: 'Droid Serif'; font-weight:700;">50 Phelan Ave, San Francisco, CA 94112<br> Multi Use Building, Room #140</p>
+        <p style = "text-align: center; color: #222s; font-family: 'Droid Serif'; font-weight:700;">Multi-Use Bldg, San Francisco, California 94112<br>Room #140</p>
         <div id = "map"></div>  <!-- map should be changed below -->
     
         </div>
-        <p style = "text-align: center; color: #222s; font-family: 'Droid Serif';"><i>[parking instructions]</i></p>
+        <p style = "text-align: center; color: #222s; font-family: 'Droid Serif';"><br><i>[parking instructions]</i></p>
 
     <div class = "row">
       <div class = "large-1 columns day-text">
@@ -249,7 +249,7 @@ var map;
 
 function init() {
     var mapOptions = {
-        center: new google.maps.LatLng(38.537019,-121.754811),
+        center: new google.maps.LatLng(37.7240335,-122.4548291),
         zoom: 15,
         zoomControl: true,
         zoomControlOptions: {
@@ -263,7 +263,7 @@ function init() {
         scaleControl: true,
         scrollwheel: false,
         streetViewControl: true,
-        draggable : false,
+        draggable : true,
         overviewMapControl: true,
         overviewMapControlOptions: {
             opened: false,
@@ -276,8 +276,10 @@ function init() {
     var mapElement = document.getElementById('map');
     var map = new google.maps.Map(mapElement, mapOptions);
     var locations = [
-        ['Kemper Hall', 38.5370187, -121.7548109]
+        ['Multi-Use Bldg', 37.725,-122.4548291]
     ];
+
+    infowindow = new google.maps.InfoWindow();
 
     for (i = 0; i < locations.length; i++) {
         marker = new google.maps.Marker({
@@ -290,6 +292,7 @@ function init() {
 
     }
 }
+
 function toggleBounce() {
 
   if (marker.getAnimation() != null) {
