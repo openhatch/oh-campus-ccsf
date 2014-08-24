@@ -22,10 +22,10 @@
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    background-image: url(https://openhatch.org/static/images/penguin.png);
+    background-image: url(../imgs/contribute.jpg);
     background-position:50% 50%;
     background-repeat:no-repeat; 
-    background-size: 50%;   
+    background-size: 100%;   
 }
 
 ul.social{
