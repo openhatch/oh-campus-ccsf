@@ -7,6 +7,8 @@
     <title>OpenHatch at CCSF | Open Source Comes To Campus</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
     <script src="js/vendor/modernizr.js">
     </script>
   </head>
@@ -70,7 +72,7 @@ window.onscroll = function() {
 
     <div class = "row pic">
     <div class = "large-3 columns">
-        <div id = "circle-bird"></div>
+        <div id = "circle-bird1"></div>
     </div>
     <div class="large-9 columns black ">
       <h2>The Background</h2>
@@ -119,23 +121,21 @@ window.onscroll = function() {
     </div>
 
     <div class = "row pic">
-    <div class = "large-3 columns">
-        <div id = "circle-bird"></div>
-    </div>
-    <div class="large-9 columns black ">
-      <h2>What if I can't code?</h2>
-        <p>
-          You do not need to know how to program to contribute to free software. You can contribute code, but also original art, testing, documentation, web design, and much more. All levels of skill and experience are welcome.
-        </p>
-      <h2>What if I can code, but im not ready to contribute?</h2>
-        <p>
-          Are workshops are intended for you! Workshops will be split into two sections: "Beginner" - for those who have never worked with the tools like IRC and Git, and "Advanced Beginner" - for those who are ready to learn a little faster. Then you can meet with mentors who will guide you through the process of contributing to their project.
-        </p>
-      <h2>What if I can code, and want to contribute?</h2>
-        <p>
-          Then you can skip the workshops and sit with one of the mentors who will be ready to get you bug fixing right away.
-        </p>
-      </div>
+      <div class="large-9 columns black ">
+        <h2>What if I can't code?</h2>
+          <p>
+            You do not need to know how to program to contribute to free software. You can contribute code, but also original art, testing, documentation, web design, and much more. All levels of skill and experience are welcome.
+          </p>
+        <h2>What if I can code, but im not ready to contribute?</h2>
+          <p>
+            Are workshops are intended for you! Workshops will be split into two sections: "Beginner" - for those who have never worked with the tools like IRC and Git, and "Advanced Beginner" - for those who are ready to learn a little faster. Then you can meet with mentors who will guide you through the process of contributing to their project.
+          </p>
+        <h2>What if I can code, and want to contribute?</h2>
+          <p>
+            Then you can skip the workshops and sit with one of the mentors who will be ready to get you bug fixing right away.
+          </p>
+        </div>
+        <div id = "circle-bird2" class="left"></div>
     </div>
 
     <div class = "row" style = "margin-bottom: 0px;"> 
@@ -288,12 +288,25 @@ function toggleBounce() {
 
 <script>
   $(window).scroll(function() {
-    $('#circle-bird').each(function(){
+    $('#circle-bird1').each(function(){
     var imagePos = $(this).offset().top;
 
     var topOfWindow = $(window).scrollTop();
+    // console.log("imagePos: "+imagePos+", topOfWindow: "+topOfWindow);
       if (imagePos < topOfWindow+500) {
-        $(this).addClass("circletag animated bounceIn");
+        $(this).addClass("circletag1 animated bounceIn");
+      }
+    });
+  });
+
+  $(window).scroll(function() {
+    $('#circle-bird2').each(function(){
+    var imagePos = $(this).offset().top;
+
+    var topOfWindow = $(window).scrollTop();
+    // console.log("imagePos: "+imagePos+", topOfWindow: "+topOfWindow);
+      if (imagePos < topOfWindow+500) {
+        $(this).addClass("circletag2 animated bounceIn");
       }
     });
   });

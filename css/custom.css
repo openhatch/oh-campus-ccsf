@@ -1,4 +1,4 @@
-.circletag {
+.circletag1 {
     display: block;
     width: 280px;
     height: 280px;
@@ -11,6 +11,25 @@
     background-position:50% 50%;
     background-repeat:no-repeat; 
     background-size: 50%;   
+}
+
+.circletag2 {
+    display: block;
+    width: 280px;
+    height: 280px;
+    background: #fff;
+    margin: 5% auto 0 auto;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    background-image: url(https://openhatch.org/static/images/penguin.png);
+    background-position:50% 50%;
+    background-repeat:no-repeat; 
+    background-size: 50%;   
+}
+
+ul.social{
+    display:initial;
 }
 
 /*  True throughout page */
